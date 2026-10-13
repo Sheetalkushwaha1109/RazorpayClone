@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razorpay - Best Payment Solution for Online Payments India</title>
+  <meta name="description" content="Online Payments India: Start Accepting Payments Instantly with Razorpay's Payment Suite, supporting UPI, Cards, Netbanking, Wallets and Business Banking.">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/razorpay-logo.svg">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-announcement" id="topAnnouncement">
+    <div class="container announcement-inner">
+      <span class="announcement-badge">RBI Update</span>
+      <span>Effective January 01, 2026: Payment aggregation services operated by Razorpay Payments Private Limited (RBI Authorised Payment Aggregator).</span>
+      <a href="#compliance" class="announcement-link">Know More &rarr;</a>
+      <button class="announcement-close" id="closeAnnouncementBtn" aria-label="Dismiss banner">&times;</button>
+    </div>
+  </aside>
+
+  <!-- Main Sticky Header & Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        
+        <!-- Brand Logo -->
+        <a href="#" class="brand-logo" aria-label="Razorpay Home">
+          <svg width="135" height="28" viewBox="0 0 140 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.05494 7.84177L7.89197 12.1223L14.5486 7.8174L10.195 24.0606L14.6165 24.0643L21.048 0.0723572" fill="#305EFF"/>
+            <path d="M1.89031 17.2356L0.059082 24.0643H9.12142L12.8297 10.1729L1.89031 17.2356ZM33.3696 11.2236C33.1481 12.0469 32.7213 12.6517 32.0848 13.0379C31.4498 13.4233 30.5586 13.6168 29.4081 13.6168H25.7531L27.0364 8.83195H30.6915C31.8404 8.83195 32.6298 9.02393 33.058 9.41529C33.4863 9.80664 33.5897 10.4047 33.3696 11.2317V11.2236ZM37.1539 11.1284C37.6191 9.40052 37.4271 8.0714 36.5765 7.14102C35.7273 6.21803 34.2372 5.75284 32.1107 5.75284H23.9536L19.0433 24.0725H23.0062L24.9851 16.6885H27.5843C28.1676 16.6885 28.6269 16.7845 28.9621 16.9691C29.2981 17.1611 29.4953 17.4933 29.5558 17.9733L30.2632 24.0725H34.509L33.8208 18.3868C33.6805 17.1168 33.0994 16.371 32.0782 16.1495C33.38 15.7729 34.4706 15.1452 35.3493 14.2739C36.2218 13.409 36.8452 12.3249 37.1539 11.1357V11.1284ZM46.787 17.5155C46.4548 18.756 45.9453 19.6938 45.2563 20.3509C44.5667 21.0081 43.7426 21.333 42.7812 21.333C41.8021 21.333 41.1383 21.0155 40.7876 20.3731C40.4361 19.7307 40.4243 18.8003 40.7506 17.582C41.077 16.3636 41.5976 15.4111 42.3138 14.7244C43.0301 14.0376 43.8674 13.6943 44.8288 13.6943C45.7887 13.6943 46.4459 14.0266 46.7782 14.686C47.1178 15.3483 47.1252 16.2957 46.7929 17.5288L46.787 17.5155ZM48.5237 11.0324L48.0275 12.8857C47.8134 12.2212 47.3977 11.6895 46.7833 11.2908C46.1675 10.8995 45.4055 10.7001 44.4965 10.7001C43.3816 10.7001 42.3109 10.9881 41.2845 11.564C40.2581 12.14 39.3573 12.9522 38.5894 14.0007C37.8214 15.0493 37.2602 16.2381 36.8984 17.5746C36.544 18.9184 36.4702 20.0925 36.6843 21.1115C36.9058 22.1379 37.371 22.9206 38.0872 23.467C38.8109 24.0208 39.7339 24.294 40.8636 24.294C41.7613 24.2985 42.6489 24.1044 43.4628 23.7254C44.2674 23.3625 44.9831 22.8282 45.5598 22.16L45.0429 24.0917H48.8752L52.3745 11.039H48.5348L48.5237 11.0324ZM66.1456 11.0324H55.001L54.222 13.9417H60.7066L52.1338 21.3478L51.4013 24.0798H62.9055L63.6845 21.1706H56.7362L65.4404 13.6537L66.1456 11.0324ZM75.9552 17.4933C75.6103 18.7782 75.0986 19.744 74.423 20.3731C73.7474 21.0081 72.9292 21.3256 71.9686 21.3256C69.9601 21.3256 69.3 20.0482 69.9852 17.4933C70.3249 16.2233 70.8388 15.2686 71.5255 14.6254C72.2122 13.9801 73.0444 13.6581 74.0228 13.6581C74.9827 13.6581 75.631 13.9778 75.9648 14.6217C76.2985 15.2641 76.2956 16.2218 75.9552 17.4919V17.4933ZM78.1984 11.5234C77.316 10.974 76.19 10.6994 74.8166 10.6994C73.4262 10.6994 72.1391 10.9726 70.9548 11.519C69.7753 12.062 68.7387 12.8725 67.9273 13.8863C67.0929 14.9126 66.4926 16.1162 66.1242 17.4897C65.7624 18.8579 65.7181 20.0593 65.9986 21.0879C66.2792 22.1142 66.8699 22.9043 67.756 23.4507C68.6495 24.0016 69.7866 24.2755 71.1822 24.2755C72.5556 24.2755 73.833 23.9994 75.0071 23.45C76.1811 22.8977 77.1853 22.1135 78.0197 21.0797C78.8541 20.0504 79.4522 18.8498 79.8214 17.4764C80.1906 16.1029 80.2349 14.9038 79.9543 13.873C79.6737 12.8466 79.0904 12.0565 78.2117 11.5064L78.1984 11.5234ZM91.8794 14.5191L92.8615 10.9674C92.5292 10.7976 92.0936 10.709 91.5472 10.709C90.6685 10.709 89.8267 10.926 89.0145 11.3661C88.3159 11.7398 87.7223 12.267 87.2202 12.9271L87.7296 11.0147L86.6169 11.0191H83.8848L80.3627 24.0665H84.2488L86.0764 17.246C86.3422 16.2543 86.8207 15.4738 87.5111 14.92C88.1978 14.364 89.0543 14.0856 90.0881 14.0856C90.7231 14.0856 91.3138 14.2311 91.875 14.5213L91.8794 14.5191ZM102.693 17.5561C102.36 18.7745 101.858 19.7048 101.171 20.3472C100.485 20.9926 99.6577 21.3145 98.6978 21.3145C97.7379 21.3145 97.0807 20.9897 96.7337 20.3399C96.3792 19.6864 96.3718 18.7449 96.7041 17.5074C97.0364 16.2706 97.5459 15.3217 98.2474 14.6645C98.9489 14.0022 99.7759 13.6714 100.736 13.6714C101.681 13.6714 102.316 14.0111 102.656 14.6978C102.995 15.3845 103.003 16.337 102.676 17.5554L102.693 17.5561ZM105.394 11.5448C104.674 10.9689 103.754 10.6809 102.639 10.6809C101.662 10.6809 100.731 10.9024 99.8482 11.3499C98.9658 11.7966 98.2496 12.4058 97.6995 13.1767L97.7128 13.0881L98.3648 11.0132H94.5694L93.6021 14.6239L93.5726 14.7495L89.5852 29.6237H93.4766L95.485 22.1364C95.6844 22.8024 96.0905 23.3252 96.7108 23.7033C97.331 24.0798 98.0967 24.2667 99.0072 24.2667C100.137 24.2667 101.215 23.9934 102.238 23.447C103.264 22.8991 104.15 22.1105 104.903 21.0916C105.656 20.0726 106.215 18.8911 106.572 17.5546C106.934 16.2159 107.008 15.0219 106.801 13.9771C106.591 12.9308 106.125 12.1208 105.405 11.5478L105.394 11.5448ZM118.301 17.5029C117.969 18.7361 117.46 19.6812 116.773 20.331C116.086 20.9852 115.259 21.3109 114.299 21.3109C113.317 21.3109 112.653 20.9933 112.306 20.3509C111.951 19.7085 111.944 18.7782 112.269 17.5598C112.594 16.3414 113.112 15.3889 113.828 14.7022C114.545 14.0155 115.383 13.6729 116.344 13.6729C117.304 13.6729 117.954 14.0052 118.293 14.6623C118.633 15.3217 118.635 16.2691 118.304 17.5052L118.301 17.5029ZM120.037 11.0161L119.54 12.8695C119.326 12.2013 118.912 11.6696 118.299 11.2746C117.679 10.8803 116.918 10.6839 116.01 10.6839C114.895 10.6839 113.819 10.9718 112.791 11.5478C111.764 12.1237 110.864 12.9315 110.096 13.9771C109.328 15.0227 108.767 16.2144 108.405 17.5509C108.047 18.8926 107.976 20.0689 108.191 21.0923C108.407 22.1113 108.873 22.8984 109.594 23.4478C110.313 23.9942 111.24 24.2703 112.37 24.2703C113.278 24.2703 114.146 24.0813 114.969 23.7018C115.772 23.3372 116.486 22.8023 117.061 22.1342L116.544 24.0673H120.376L123.875 11.0198H120.043L120.037 11.0161ZM139.964 11.0206L139.966 11.0169H137.611C137.535 11.0169 137.469 11.0206 137.4 11.022H136.178L135.55 11.8933L135.395 12.1001L135.329 12.2035L130.363 19.1208L129.337 11.0206H125.27L127.33 23.3296L122.781 29.6282H126.835L127.935 28.0679C127.966 28.0221 127.994 27.9837 128.031 27.935L129.316 26.1112L129.353 26.0595L135.107 17.9002L139.959 11.0331L139.966 11.0287H139.964V11.0206Z" fill="#192839"/>
+          </svg>
+        </a>
+
+        <!-- Desktop Navigation Items -->
+        <ul class="nav-menu">
+          
+          <!-- Payments Menu -->
+          <li class="nav-item">
+            <button class="nav-link" aria-expanded="false">
+              Payments
+              <svg class="nav-caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu--payments">
+              <div class="dropdown-header-tag">Accept Payments Online & In-Store</div>
+              <div class="dropdown-grid">
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#128179;</div>
+                  <div>
+                    <div class="dropdown-title">Payment Gateway <span class="dropdown-badge">Popular</span></div>
+                    <div class="dropdown-desc">100+ payment modes with 99.9% conversion uptime</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#128279;</div>
+                  <div>
+                    <div class="dropdown-title">Payment Links</div>
+                    <div class="dropdown-desc">Share links via SMS, WhatsApp, & email in 1 click</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#128196;</div>
+                  <div>
+                    <div class="dropdown-title">Payment Pages</div>
+                    <div class="dropdown-desc">Accept money with zero code custom-branded store</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#128421;</div>
+                  <div>
+                    <div class="dropdown-title">Razorpay POS <span class="dropdown-badge">New</span></div>
+                    <div class="dropdown-desc">Android smart card terminals and dynamic Soundbox</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#128260;</div>
+                  <div>
+                    <div class="dropdown-title">Subscriptions</div>
+                    <div class="dropdown-desc">Automated recurring debits via UPI AutoPay & Cards</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payments">
+                  <div class="dropdown-icon">&#9881;</div>
+                  <div>
+                    <div class="dropdown-title">Optimizer</div>
+                    <div class="dropdown-desc">AI dynamic routing engine across multiple gateways</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Banking+ Menu -->
+          <li class="nav-item">
+            <button class="nav-link" aria-expanded="false">
+              Banking+
+              <svg class="nav-caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu--banking">
+              <div class="dropdown-header-tag">Business Banking by RazorpayX</div>
+              <div class="dropdown-grid">
+                <a href="#products" class="dropdown-card" data-category="banking">
+                  <div class="dropdown-icon">&#127974;</div>
+                  <div>
+                    <div class="dropdown-title">Current Account</div>
+                    <div class="dropdown-desc">India's leading current account powered by top banks</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="banking">
+                  <div class="dropdown-icon">&#129309;</div>
+                  <div>
+                    <div class="dropdown-title">Payouts & Bulk API</div>
+                    <div class="dropdown-desc">Instant 24x7 vendor payments and instant refunds</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="banking">
+                  <div class="dropdown-icon">&#128179;</div>
+                  <div>
+                    <div class="dropdown-title">Corporate Credit Card</div>
+                    <div class="dropdown-desc">Commercial cards with zero collateral and smart limits</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="banking">
+                  <div class="dropdown-icon">&#127758;</div>
+                  <div>
+                    <div class="dropdown-title">Forex & Escrow</div>
+                    <div class="dropdown-desc">Seamless foreign funding and automated escrow transfers</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Payroll Menu -->
+          <li class="nav-item">
+            <button class="nav-link" aria-expanded="false">
+              Payroll
+              <svg class="nav-caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu--payroll">
+              <div class="dropdown-header-tag">Automate Salary & Compliance</div>
+              <div class="dropdown-grid dropdown-grid--1col">
+                <a href="#products" class="dropdown-card" data-category="payroll">
+                  <div class="dropdown-icon">&#128188;</div>
+                  <div>
+                    <div class="dropdown-title">Payroll for Startups</div>
+                    <div class="dropdown-desc">Pay salaries & execute PF, ESI, TDS compliance in 3 clicks</div>
+                  </div>
+                </a>
+                <a href="#products" class="dropdown-card" data-category="payroll">
+                  <div class="dropdown-icon">&#127970;</div>
+                  <div>
+                    <div class="dropdown-title">Payroll for Enterprises</div>
+                    <div class="dropdown-desc">Scalable multi-entity payroll software with biometric integration</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Developers Menu -->
+          <li class="nav-item">
+            <button class="nav-link" aria-expanded="false">
+              Developers
+              <svg class="nav-caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu--devs">
+              <div class="dropdown-header-tag">Developer Hub & Tooling</div>
+              <div class="dropdown-grid">
+                <a href="#developers" class="dropdown-card">
+                  <div class="dropdown-icon">&#128187;</div>
+                  <div>
+                    <div class="dropdown-title">Documentation</div>
+                    <div class="dropdown-desc">Comprehensive quickstart guides and SDK samples</div>
+                  </div>
+                </a>
+                <a href="#developers" class="dropdown-card">
+                  <div class="dropdown-icon">&#128225;</div>
+                  <div>
+                    <div class="dropdown-title">API Reference</div>
+                    <div class="dropdown-desc">Full REST API specifications and OpenAPI schema</div>
+                  </div>
+                </a>
+                <a href="#developers" class="dropdown-card">
+                  <div class="dropdown-icon">&#9889;</div>
+                  <div>
+                    <div class="dropdown-title">Webhooks</div>
+                    <div class="dropdown-desc">Real-time payment and payout event notifications</div>
+                  </div>
+                </a>
+                <button class="dropdown-card" id="navDemoCheckoutBtn">
+                  <div class="dropdown-icon">&#128717;</div>
+                  <div>
+                    <div class="dropdown-title">Checkout Demo</div>
+                    <div class="dropdown-desc">Experience Razorpay Checkout modal live in action</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Resources Menu -->
+          <li class="nav-item">
+            <button class="nav-link" aria-expanded="false">
+              Resources
+              <svg class="nav-caret" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="dropdown-menu dropdown-menu--resources">
+              <div class="dropdown-header-tag">Knowledge & Insights</div>
+              <div class="dropdown-grid dropdown-grid--1col">
+                <a href="#testimonials" class="dropdown-card">
+                  <div class="dropdown-icon">&#11088;</div>
+                  <div>
+                    <div class="dropdown-title">Customer Stories</div>
+                    <div class="dropdown-desc">Discover how 1,50,000+ businesses grow with Razorpay</div>
+                  </div>
+                </a>
+                <a href="#pricing" class="dropdown-card">
+                  <div class="dropdown-icon">&#128290;</div>
+                  <div>
+                    <div class="dropdown-title">Fee Calculator</div>
+                    <div class="dropdown-desc">Estimate processing fees and calculate business savings</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <!-- Pricing Direct Link -->
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+
+        </ul>
+
+        <!-- Right Side Nav Actions -->
+        <div class="nav-actions">
+          <div class="country-selector" title="Selected Region: India">
+            <span class="country-flag">&#127470;&#127475;</span>
+            <span>India</span>
+          </div>
+          <button class="btn btn-outline btn-sm" id="navLoginBtn">Login</button>
+          <button class="btn btn-primary btn-sm" id="navSignupBtn">Sign Up &rarr;</button>
+          
+          <!-- Mobile Hamburger Toggle -->
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <a href="#" class="brand-logo">
+          <svg width="120" height="24" viewBox="0 0 140 30" fill="none"><path d="M9.05494 7.84177L7.89197 12.1223L14.5486 7.8174L10.195 24.0606L14.6165 24.0643L21.048 0.0723572" fill="#305EFF"/><path d="M1.89031 17.2356L0.059082 24.0643H9.12142L12.8297 10.1729L1.89031 17.2356Z" fill="#192839"/></svg>
+        </a>
+        <button class="mobile-close-btn" id="mobileDrawerClose" aria-label="Close menu">&times;</button>
+      </div>
+
+      <div class="mobile-drawer-body">
+        <div class="mobile-menu-item">
+          <button class="mobile-accordion-toggle">
+            <span>Payments</span>
+            <span class="mobile-accordion-caret">&#9662;</span>
+          </button>
+          <div class="mobile-accordion-panel">
+            <a href="#products" class="mobile-sublink" data-category="payments">Payment Gateway</a>
+            <a href="#products" class="mobile-sublink" data-category="payments">Payment Links</a>
+            <a href="#products" class="mobile-sublink" data-category="payments">Payment Pages</a>
+            <a href="#products" class="mobile-sublink" data-category="payments">Razorpay POS</a>
+            <a href="#products" class="mobile-sublink" data-category="payments">Subscriptions</a>
+            <a href="#products" class="mobile-sublink" data-category="payments">Optimizer</a>
+          </div>
+        </div>
+
+        <div class="mobile-menu-item">
+          <button class="mobile-accordion-toggle">
+            <span>Banking+</span>
+            <span class="mobile-accordion-caret">&#9662;</span>
+          </button>
+          <div class="mobile-accordion-panel">
+            <a href="#products" class="mobile-sublink" data-category="banking">Current Account</a>
+            <a href="#products" class="mobile-sublink" data-category="banking">Payouts & Bulk API</a>
+            <a href="#products" class="mobile-sublink" data-category="banking">Corporate Cards</a>
+            <a href="#products" class="mobile-sublink" data-category="banking">Forex & Escrow</a>
+          </div>
+        </div>
+
+        <div class="mobile-menu-item">
+          <button class="mobile-accordion-toggle">
+            <span>Payroll</span>
+            <span class="mobile-accordion-caret">&#9662;</span>
+          </button>
+          <div class="mobile-accordion-panel">
+            <a href="#products" class="mobile-sublink" data-category="payroll">Payroll for Startups</a>
+            <a href="#products" class="mobile-sublink" data-category="payroll">Payroll for Enterprises</a>
+          </div>
+        </div>
+
+        <div class="mobile-menu-item">
+          <a href="#developers" class="mobile-accordion-toggle">Developers</a>
+        </div>
+        <div class="mobile-menu-item">
+          <a href="#pricing" class="mobile-accordion-toggle">Pricing</a>
+        </div>
+        <div class="mobile-menu-item">
+          <a href="#testimonials" class="mobile-accordion-toggle">Customer Stories</a>
+        </div>
+        <div class="mobile-menu-item">
+          <a href="#faq" class="mobile-accordion-toggle">FAQ</a>
+        </div>
+      </div>
+
+      <div class="mobile-drawer-footer">
+        <button class="btn btn-outline" id="mobileLoginBtn" style="width: 100%;">Login</button>
+        <button class="btn btn-primary" id="mobileSignupBtn" style="width: 100%;">Sign Up Now &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-accent"></div>
+      <div class="container">
+        
+        <div class="hero-grid">
+          
+          <!-- Hero Copy Left -->
+          <div class="hero-content">
+            
+            <div class="section-pill">
+              <span>&#9889;</span> India's Leading Full-Stack Financial Services Platform
+            </div>
+
+            <!-- Segment Selector Switcher -->
+            <div class="hero-segment-switcher" role="tablist" aria-label="Hero Product Focus">
+              <button class="segment-btn active" data-segment="payments">Payments</button>
+              <button class="segment-btn" data-segment="banking">Effortless Banking</button>
+              <button class="segment-btn" data-segment="payroll">Automated Payroll</button>
+              <button class="segment-btn" data-segment="pos">Easy In-Store POS</button>
+              <button class="segment-btn" data-segment="ai">AI Native</button>
+            </div>
+
+            <h1 class="hero-title" id="heroHeading">
+              Advanced payment solutions <br>
+              <span class="hero-title-highlight">for India's boldest disruptors</span>
+            </h1>
+
+            <p class="hero-subtitle" id="heroDescription">
+              100+ Payment Methods | Easy Integration | Best-in-Class Performance. Accept payments instantly via UPI, Cards, Netbanking, Wallets &amp; more.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary btn-lg" id="heroSignupBtn">
+                Sign Up Now
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <a href="#products" class="btn btn-outline btn-lg">
+                Explore Products &#8599;
+              </a>
+            </div>
+
+            <div class="hero-perks">
+              <div class="perk-item">
+                <span class="perk-icon">&#10003;</span>
+                <span>&#8377;0 Setup Fee</span>
+              </div>
+              <div class="perk-item">
+                <span class="perk-icon">&#10003;</span>
+                <span>Instant Onboarding</span>
+              </div>
+              <div class="perk-item">
+                <span class="perk-icon">&#10003;</span>
+                <span>99.9% Uptime</span>
+              </div>
+              <div class="perk-item">
+                <span class="perk-icon">&#10003;</span>
+                <span>PCI-DSS Level 1</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Visual Right: Interactive Live Checkout Simulation -->
+          <div class="hero-visual">
+            <div class="hero-card-wrapper">
+            
+              <div class="floating-stat-pill floating-pill--top">
+                <div class="floating-stat-icon">&#128640;</div>
+                <div>
+                  <div style="font-size: 0.75rem; color: #768ea7;">Checkout Speed</div>
+                  <div style="color: #009e5c;">5X Faster with Turbo UPI</div>
+                </div>
+              </div>
+
+              <div class="checkout-preview-card" id="heroCheckoutCard">
+                
+                <!-- Card Header -->
+                <div class="preview-top-bar">
+                  <div class="preview-merchant-info">
+                    <div class="preview-merchant-logo">RZP</div>
+                    <div>
+                      <div class="preview-merchant-name" id="previewMerchantName">Mamaearth Official</div>
+                      <div class="preview-merchant-order" id="previewOrderName">Order #ORD-84920 &bull; Body Lotion</div>
+                    </div>
+                  </div>
+                  <div class="preview-amount-tag">
+                    <div style="font-size: 0.7rem; color: #94a3b8;">AMOUNT</div>
+                    <div class="preview-amount-val" id="previewAmount">&#8377; 455.00</div>
+                  </div>
+                </div>
+
+                <!-- Interactive Tabs inside Checkout Mockup -->
+                <div class="preview-body" id="previewInteractiveBody">
+                  <div class="preview-tabs">
+                    <button class="preview-tab-btn active" data-tab="upi">UPI (GPay / PhonePe)</button>
+                    <button class="preview-tab-btn" data-tab="card">Cards</button>
+                    <button class="preview-tab-btn" data-tab="netbanking">Netbanking</button>
+                  </div>
+
+                  <!-- UPI Tab Pane -->
+                  <div class="preview-tab-pane active" id="paneUpi">
+                    <div class="upi-qr-box">
+                      <div class="qr-code-graphic">
+                        <svg width="90" height="90" viewBox="0 0 100 100" fill="currentColor">
+                          <path d="M10 10h30v30H10zm6 6v18h18V16zm38-6h30v30H54zm6 6v18h18V16zM10 54h30v30H10zm6 6v18h18V60zm54 0h12v12H70zm12 12h12v12H82zm-28 6h12v12H54zm12-18h12v12H66z"/>
+                          <circle cx="25" cy="25" r="4" fill="#305EFF"/>
+                          <circle cx="69" cy="25" r="4" fill="#305EFF"/>
+                          <circle cx="25" cy="69" r="4" fill="#305EFF"/>
+                        </svg>
+                      </div>
+                      <div class="qr-caption">Scan with any UPI app &bull; Google Pay, PhonePe, Paytm, BHIM</div>
+                    </div>
+                    <div class="upi-id-input-box">
+                      <input type="text" class="upi-input" placeholder="e.g. mobile@upi or name@okaxis" value="founder@okhdfcbank" readonly>
+                    </div>
+                  </div>
+
+                  <!-- Card Tab Pane -->
+                  <div class="preview-tab-pane" id="paneCard">
+                    <div class="card-input-group">
+                      <div>
+                        <label class="form-label">Card Number</label>
+                        <input type="text" class="form-input" value="4111 &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; 1111" readonly>
+                      </div>
+                      <div class="form-row">
+                        <div>
+                          <label class="form-label">Expiry</label>
+                          <input type="text" class="form-input" value="12 / 28" readonly>
+                        </div>
+                        <div>
+                          <label class="form-label">CVV</label>
+                          <input type="password" class="form-input" value="888" readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Netbanking Tab Pane -->
+                  <div class="preview-tab-pane" id="paneNetbanking">
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px;">
+                      <button class="btn btn-outline btn-sm active" style="font-size: 0.75rem;">HDFC Bank</button>
+                      <button class="btn btn-outline btn-sm" style="font-size: 0.75rem;">ICICI Bank</button>
+                      <button class="btn btn-outline btn-sm" style="font-size: 0.75rem;">SBI Bank</button>
+                      <button class="btn btn-outline btn-sm" style="font-size: 0.75rem;">Axis Bank</button>
+                      <button class="btn btn-outline btn-sm" style="font-size: 0.75rem;">Kotak</button>
+                      <button class="btn btn-outline btn-sm" style="font-size: 0.75rem;">Other &rarr;</button>
+                    </div>
+                  </div>
+
+                  <!-- Simulate Pay Action -->
+                  <button class="preview-pay-btn" id="simulatePayBtn">
+                    <span>Pay Now</span>
+                    <span id="btnPayAmount">&#8377; 455.00</span>
+                    <span style="font-size: 0.8rem;">&rarr;</span>
+                  </button>
+                </div>
+
+                <!-- Live Success State Overlay -->
+                <div class="preview-success-overlay" id="previewSuccessState">
+                  <div class="success-check-circle">&#10003;</div>
+                  <div class="success-title">Payment Successful!</div>
+                  <div class="success-tx-id" id="successTxId">pay_demo_9a87bc12e</div>
+                  <p style="font-size: 0.85rem; color: #40566d; margin-bottom: 16px;">
+                    Simulated via Razorpay Turbo Checkout API. Funds routed with 0% dropped transactions.
+                  </p>
+                  <button class="btn btn-outline btn-sm" id="resetPreviewBtn">Test Again</button>
+                </div>
+
+              </div>
+
+              <div class="floating-stat-pill floating-pill--bottom">
+                <div class="floating-stat-icon">&#128176;</div>
+                <div>
+                  <div style="font-size: 0.75rem; color: #768ea7;">Annual TPV</div>
+                  <div style="color: #305eff;">&#8377;2,50,000+ Cr Processed</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trust Indicators & Brand Logo Marquee -->
+    <section class="trust-section" id="compliance">
+      <div class="container">
+        
+        <div class="trust-title">
+          Powering Payments for 1,50,000+ Businesses Across India
+        </div>
+
+        <!-- Marquee Ticker -->
+        <div class="logo-marquee-wrapper">
+          <div class="logo-marquee-track">
+            <!-- First Set -->
+            <div class="brand-logo-item"><img src="assets/logos/swiggy.png" alt="Swiggy"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zomato.png" alt="Zomato"></div>
+            <div class="brand-logo-item"><img src="assets/logos/bookmyshow.png" alt="BookMyShow"></div>
+            <div class="brand-logo-item"><img src="assets/logos/nykaa.png" alt="Nykaa"></div>
+            <div class="brand-logo-item"><img src="assets/logos/cred.png" alt="CRED"></div>
+            <div class="brand-logo-item"><img src="assets/logos/blinkit.png" alt="Blinkit"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zepto.png" alt="Zepto"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zerodha.png" alt="Zerodha"></div>
+            <div class="brand-logo-item"><img src="assets/logos/ola.png" alt="Ola"></div>
+            <div class="brand-logo-item"><img src="assets/logos/lenskart.png" alt="Lenskart"></div>
+            <div class="brand-logo-item"><img src="assets/logos/urbancompany.png" alt="Urban Company"></div>
+            <div class="brand-logo-item"><img src="assets/logos/myntra.png" alt="Myntra"></div>
+            <div class="brand-logo-item"><img src="assets/logos/ather.png" alt="Ather"></div>
+            <div class="brand-logo-item"><img src="assets/logos/indigo.png" alt="IndiGo"></div>
+
+            <!-- Duplicate Set for Seamless Loop -->
+            <div class="brand-logo-item"><img src="assets/logos/swiggy.png" alt="Swiggy"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zomato.png" alt="Zomato"></div>
+            <div class="brand-logo-item"><img src="assets/logos/bookmyshow.png" alt="BookMyShow"></div>
+            <div class="brand-logo-item"><img src="assets/logos/nykaa.png" alt="Nykaa"></div>
+            <div class="brand-logo-item"><img src="assets/logos/cred.png" alt="CRED"></div>
+            <div class="brand-logo-item"><img src="assets/logos/blinkit.png" alt="Blinkit"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zepto.png" alt="Zepto"></div>
+            <div class="brand-logo-item"><img src="assets/logos/zerodha.png" alt="Zerodha"></div>
+            <div class="brand-logo-item"><img src="assets/logos/ola.png" alt="Ola"></div>
+            <div class="brand-logo-item"><img src="assets/logos/lenskart.png" alt="Lenskart"></div>
+            <div class="brand-logo-item"><img src="assets/logos/urbancompany.png" alt="Urban Company"></div>
+            <div class="brand-logo-item"><img src="assets/logos/myntra.png" alt="Myntra"></div>
+            <div class="brand-logo-item"><img src="assets/logos/ather.png" alt="Ather"></div>
+            <div class="brand-logo-item"><img src="assets/logos/indigo.png" alt="IndiGo"></div>
+          </div>
+        </div>
+
+        <!-- Metric Counter Row -->
+        <div class="stats-counter-grid">
+          <div>
+            <div class="stat-item-number">1,50,000+</div>
+            <div class="stat-item-label">Businesses Trust Razorpay</div>
+          </div>
+          <div>
+            <div class="stat-item-number">100+</div>
+            <div class="stat-item-label">Payment Modes Supported</div>
+          </div>
+          <div>
+            <div class="stat-item-number">&#8377;2,50,000+ Cr</div>
+            <div class="stat-item-label">Total Volume Processed</div>
+          </div>
+          <div>
+            <div class="stat-item-number">99.9%</div>
+            <div class="stat-item-label">Industry-Leading Uptime</div>
+          </div>
+        </div>
+
+        <!-- Compliance & Security Certifications -->
+        <div class="compliance-row">
+          <div class="compliance-badge-item">
+            <img src="assets/logos/pci-dss.png" alt="PCI DSS">
+            <span>PCI DSS Level 1 Certified</span>
+          </div>
+          <div class="compliance-badge-item">
+            <img src="assets/logos/iso-27001.png" alt="ISO 27001">
+            <span>ISO/IEC 27001:2022 Certified</span>
+          </div>
+          <div class="compliance-badge-item">
+            <img src="assets/logos/soc-aicpa.png" alt="SOC AICPA">
+            <span>AICPA SOC-2 Compliant</span>
+          </div>
+          <div class="compliance-badge-item">
+            <span style="color: #009e5c; font-size: 1.1rem;">&#128737;</span>
+            <span>RBI Authorised Payment Aggregator</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Core Product Suite: The All-in-One Finance Platform -->
+    <section class="section-wrapper product-suite-section" id="products">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Full-Stack Financial Infrastructure</div>
+          <h2 class="section-title">The all in one finance platform you’ve been looking for</h2>
+          <p class="section-subtitle">
+            Whether you want to accept domestic UPI, expand across borders, automate payroll, or issue instant payouts, Razorpay provides the complete suite to scale.
+          </p>
+        </div>
+
+        <!-- Category Tabs -->
+        <nav class="product-category-nav" role="tablist" aria-label="Product Categories">
+          <button class="category-tab-btn active" data-cat="all">All Products</button>
+          <button class="category-tab-btn" data-cat="payments">Accept Payments</button>
+          <button class="category-tab-btn" data-cat="banking">Make Payouts (RazorpayX)</button>
+          <button class="category-tab-btn" data-cat="business">Business Banking</button>
+          <button class="category-tab-btn" data-cat="payroll">Automate Payroll</button>
+          <button class="category-tab-btn" data-cat="credit">Credit &amp; Loans</button>
+          <button class="category-tab-btn" data-cat="ai">AI Native Stack</button>
+        </nav>
+
+        <!-- Product Cards Grid -->
+        <div class="product-cards-grid" id="productCardsGrid">
+          
+          <!-- Card 1: Payment Gateway -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128179;</div>
+              <span class="product-card-badge">PG</span>
+            </div>
+            <h3 class="product-card-title">Payment Gateway</h3>
+            <p class="product-card-desc">
+              Offer a seamless payment checkout on your website or app. Supports UPI, Cards, Netbanking, Wallets, and EMI with industry-leading success rates.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up Now &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="pg">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 2: Payment Links -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128279;</div>
+              <span class="product-card-badge">No-Code</span>
+            </div>
+            <h3 class="product-card-title">Payment Links</h3>
+            <p class="product-card-desc">
+              Create and share payment links over WhatsApp, SMS, and email. Collect payments instantly without needing a website or mobile application.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="links">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 3: Payment Pages -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128196;</div>
+              <span class="product-card-badge">Custom</span>
+            </div>
+            <h3 class="product-card-title">Payment Pages</h3>
+            <p class="product-card-desc">
+              Accept payments on a custom-branded online storefront with zero coding. Perfect for selling event tickets, subscriptions, or donations.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="pages">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 4: Razorpay POS -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128241;</div>
+              <span class="product-card-badge product-card-badge--new">In-Store</span>
+            </div>
+            <h3 class="product-card-title">Razorpay POS</h3>
+            <p class="product-card-desc">
+              Accept seamless in-store payments with India's best Android smart POS machines, QR soundboxes, and unified billing software integrations.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Order POS &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="pos">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 5: Razorpay Optimizer -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#9881;</div>
+              <span class="product-card-badge">AI Engine</span>
+            </div>
+            <h3 class="product-card-title">Optimizer</h3>
+            <p class="product-card-desc">
+              Connect to 15+ payment gateways with a single API integration. AI-powered dynamic routing maximizes transaction success and prevents downtime.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="optimizer">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 6: Subscriptions -->
+          <div class="product-card" data-cat="payments">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128260;</div>
+              <span class="product-card-badge">Recurring</span>
+            </div>
+            <h3 class="product-card-title">Subscriptions</h3>
+            <p class="product-card-desc">
+              Automate recurring payments with UPI AutoPay, eNACH, and recurring card debits. Flexible billing intervals, trials, and dunning management.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="subscriptions">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 7: API & Bulk Payouts (RazorpayX) -->
+          <div class="product-card" data-cat="banking">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#129309;</div>
+              <span class="product-card-badge">RazorpayX</span>
+            </div>
+            <h3 class="product-card-title">API &amp; Bulk Payouts</h3>
+            <p class="product-card-desc">
+              Make thousands of instant payouts with a single click or API call. Disburse vendor payments, partner commissions, and customer refunds 24x7.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Explore Payouts &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="payouts">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 8: Source to Pay -->
+          <div class="product-card" data-cat="banking">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128196;</div>
+              <span class="product-card-badge">Automated</span>
+            </div>
+            <h3 class="product-card-title">Source to Pay</h3>
+            <p class="product-card-desc">
+              Control and optimize vendor invoices with OCR invoice extraction, multi-level approval workflows, and automated TDS deductions.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Sign Up &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="source2pay">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 9: Business Banking / Current Account -->
+          <div class="product-card" data-cat="business">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#127974;</div>
+              <span class="product-card-badge">X-CA</span>
+            </div>
+            <h3 class="product-card-title">Current Account</h3>
+            <p class="product-card-desc">
+              Automate banking with India's top current account for startups. Direct integrations with ICICI, RBL, and Yes Bank with zero manual statement reconciliations.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Open Account &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="currentaccount">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 10: RazorpayX Payroll -->
+          <div class="product-card" data-cat="payroll">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128188;</div>
+              <span class="product-card-badge product-card-badge--new">X-Payroll</span>
+            </div>
+            <h3 class="product-card-title">Payroll for Startups</h3>
+            <p class="product-card-desc">
+              Master salary disbursements and compliance with India's No. 1 automated payroll solution. Automates PF, PT, ESI, and TDS filing effortlessly.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Automate Payroll &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="payroll">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 11: Corporate Cards & Credit -->
+          <div class="product-card" data-cat="credit">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#128179;</div>
+              <span class="product-card-badge">Capital</span>
+            </div>
+            <h3 class="product-card-title">Corporate Credit Cards</h3>
+            <p class="product-card-desc">
+              Turn cloud, SaaS, and marketing expenses into massive savings. Commercial credit card with dynamic spend controls, real-time limits, and zero personal guarantees.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Apply Now &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="cards">Know More</button>
+            </div>
+          </div>
+
+          <!-- Card 12: Agentic Payments & AI Stack -->
+          <div class="product-card" data-cat="ai">
+            <div class="product-card-top">
+              <div class="product-card-icon">&#129302;</div>
+              <span class="product-card-badge product-card-badge--new">Agentic</span>
+            </div>
+            <h3 class="product-card-title">Agentic Payments</h3>
+            <p class="product-card-desc">
+              Turn every AI chat or agentic workflow into a seamless checkout. Pre-built integration nodes for n8n, Replit, Vercel, and custom LLM applications.
+            </p>
+            <div class="product-card-actions">
+              <button class="btn btn-primary btn-sm card-signup-btn">Get Started &rarr;</button>
+              <button class="btn-link card-knowmore-btn" data-modal="agentic">Know More</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Industry Solutions Section -->
+    <section class="section-wrapper industry-section" id="solutions">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Tailored Solutions</div>
+          <h2 class="section-title">Powering every industry. Powering all disruptors.</h2>
+          <p class="section-subtitle">
+            Tailor-made payment, banking, and settlement architectures engineered for the specific requirements of your industry.
+          </p>
+        </div>
+
+        <!-- Industry Nav Pills -->
+        <div class="industry-nav-pills" role="tablist">
+          <button class="industry-pill-btn active" data-ind="ecommerce">E-Commerce &bull; 70K+ Brands</button>
+          <button class="industry-pill-btn" data-ind="education">Education &bull; 21K+ Institutes</button>
+          <button class="industry-pill-btn" data-ind="bfsi">BFSI &bull; 2,800+ Fintechs</button>
+          <button class="industry-pill-btn" data-ind="saas">SaaS &amp; IT &bull; 13.5K+ Cos</button>
+          <button class="industry-pill-btn" data-ind="freelance">Freelancers &amp; Creators</button>
+        </div>
+
+        <!-- Dynamic Display Box -->
+        <div class="industry-card-display" id="industryDisplayCard">
+          
+          <div class="industry-content-col">
+            <h3 class="industry-content-title" id="indTitle">Empower your e-commerce business</h3>
+            <p class="industry-content-desc" id="indDesc">
+              Streamline payment collection with a unified dashboard, enabling both online and in-person transactions while boosting checkout conversion rates and minimizing COD returns.
+            </p>
+            <div class="industry-features-list" id="indFeatures">
+              <div class="industry-feature-item">
+                <span class="industry-feature-icon">&#10003;</span>
+                <span>Magic Checkout: 1-click address autofill for 50M+ Indian buyers</span>
+              </div>
+              <div class="industry-feature-item">
+                <span class="industry-feature-icon">&#10003;</span>
+                <span>RTO Protection: 50% decrease in Return-to-Origin shipping losses</span>
+              </div>
+              <div class="industry-feature-item">
+                <span class="industry-feature-icon">&#10003;</span>
+                <span>Instant Refunds: Delight shoppers with refund credit within 10 seconds</span>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="indCtaBtn">Explore E-Commerce Solutions &rarr;</button>
+          </div>
+
+          <div class="industry-stats-box">
+            <div>
+              <div class="industry-metric-val" id="indMetricVal">+70,000</div>
+              <div class="industry-metric-label" id="indMetricLabel">Active D2C &amp; E-commerce merchants</div>
+            </div>
+            <hr style="border: none; border-top: 1px solid var(--color-border-subtle);">
+            <div>
+              <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-text-muted); text-transform: uppercase; margin-bottom: 8px;">
+                Leading Partners In This Space
+              </div>
+              <div style="display: flex; gap: 12px; flex-wrap: wrap;" id="indLogosPreview">
+                <span style="font-weight: 700; color: #192839;">Mamaearth</span> &bull;
+                <span style="font-weight: 700; color: #192839;">Nykaa</span> &bull;
+                <span style="font-weight: 700; color: #192839;">Blinkit</span> &bull;
+                <span style="font-weight: 700; color: #192839;">Zepto</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Key Innovations & Differentiators -->
+    <section class="section-wrapper innovations-section" id="innovations">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Pioneering Breakthroughs</div>
+          <h2 class="section-title">We have innovated at every instance, creating a disruption.</h2>
+          <p class="section-subtitle">
+            From introducing India's first 1-step UPI experience to intelligent multi-bank payouts routing, explore how Razorpay powers modern commerce.
+          </p>
+        </div>
+
+        <div class="innovations-grid">
+          
+          <!-- Innovation 1 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">UPI 2.0</span>
+            <div class="innovation-highlight-metric">5X Faster</div>
+            <h3 class="innovation-title">Turbo UPI</h3>
+            <p class="innovation-desc">
+              Experience India's fastest 1-step UPI payment solution with 10% higher conversion rates and zero redirection to external UPI applications.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="turbo">Know More &rarr;</button>
+          </div>
+
+          <!-- Innovation 2 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">Conversion Engine</span>
+            <div class="innovation-highlight-metric">+40% Sales</div>
+            <h3 class="innovation-title">Magic Checkout</h3>
+            <p class="innovation-desc">
+              Pre-populated addresses for 50M+ Indian consumers. Cuts checkout drop-offs and reduces costly Return-to-Origin (RTO) orders by 50%.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="magic">Know More &rarr;</button>
+          </div>
+
+          <!-- Innovation 3 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">Cross Border</span>
+            <div class="innovation-highlight-metric">Save 50%</div>
+            <h3 class="innovation-title">MoneySaver Export Account</h3>
+            <p class="innovation-desc">
+              Open virtual bank accounts in 200+ countries. Receive ACH, SWIFT, and SEPA transfers with instantaneous digital FIRC certificates.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="export">Know More &rarr;</button>
+          </div>
+
+          <!-- Innovation 4 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">Working Capital</span>
+            <div class="innovation-highlight-metric">&#8377;50L Credit</div>
+            <h3 class="innovation-title">Line of Credit</h3>
+            <p class="innovation-desc">
+              Collateral-free revolving line of credit with interest starting at 1.5% per month. Withdraw anytime, pay interest only on what you use.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="credit">Know More &rarr;</button>
+          </div>
+
+          <!-- Innovation 5 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">Intelligent Routing</span>
+            <div class="innovation-highlight-metric">99.99% Uptime</div>
+            <h3 class="innovation-title">Optimizer</h3>
+            <p class="innovation-desc">
+              Manage and route payments dynamically across 15+ payment gateways with an AI infinity router, eliminating processor outages completely.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="optimizer">Know More &rarr;</button>
+          </div>
+
+          <!-- Innovation 6 -->
+          <div class="innovation-card">
+            <span class="innovation-tag">RazorpayX</span>
+            <div class="innovation-highlight-metric">99.9% Payouts</div>
+            <h3 class="innovation-title">Payouts Pro</h3>
+            <p class="innovation-desc">
+              Real-time multi-bank routing prevents bank maintenance downtime disruptions, ensuring vendors and salaries are paid on time, every time.
+            </p>
+            <button class="btn-link innov-learn-btn" data-innov="payouts">Know More &rarr;</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Developer Section (Dark Navy Theme) -->
+    <section class="section-wrapper developers-section" id="developers">
+      <div class="container">
+        
+        <div class="developers-grid">
+          
+          <div class="dev-info-col">
+            <div class="section-pill" style="background-color: rgba(48,94,255,0.2); border-color: rgba(48,94,255,0.4); color: #75a3ff;">
+              Built for Developers
+            </div>
+            <h2 class="section-title" style="color: #ffffff;">
+              Razorpay is built <br>
+              <span style="color: #48d08c;">&lt;for developers by developers&gt;</span>
+            </h2>
+            <p class="section-subtitle" style="color: #94a3b8;">
+              Modern RESTful APIs, comprehensive platform SDKs, instant webhooks, and full sandbox environment designed to get you live in under an hour.
+            </p>
+
+            <div class="dev-feature-list">
+              <div class="dev-feature-item">
+                <div class="dev-feature-icon">&#128225;</div>
+                <div>
+                  <div class="dev-feature-title">Robust RESTful APIs</div>
+                  <div class="dev-feature-desc">Standard JSON responses, predictable status codes, and machine-readable OpenAPI specs.</div>
+                </div>
+              </div>
+              <div class="dev-feature-item">
+                <div class="dev-feature-icon">&#128187;</div>
+                <div>
+                  <div class="dev-feature-title">Native Platform SDKs</div>
+                  <div class="dev-feature-desc">Pre-built SDKs for Node.js, Python, Java, PHP, iOS, Android, Flutter, and React Native.</div>
+                </div>
+              </div>
+              <div class="dev-feature-item">
+                <div class="dev-feature-icon">&#9889;</div>
+                <div>
+                  <div class="dev-feature-title">Real-Time Webhooks</div>
+                  <div class="dev-feature-desc">Instant HMAC-signed notifications for every payment captured, refunded, or failed event.</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <button class="btn btn-primary" id="openDevDocsBtn">View API Documentation &rarr;</button>
+              <button class="btn btn-outline" id="openPlaygroundBtn" style="color: #ffffff; border-color: rgba(255,255,255,0.2);">
+                Open in Playground &#8599;
+              </button>
+            </div>
+          </div>
+
+          <!-- Code Terminal Box -->
+          <div class="code-terminal">
+            <div class="code-terminal-header">
+              <div class="code-terminal-dots">
+                <div class="terminal-dot terminal-dot--red"></div>
+                <div class="terminal-dot terminal-dot--yellow"></div>
+                <div class="terminal-dot terminal-dot--green"></div>
+              </div>
+
+              <!-- Language Selectors -->
+              <div class="code-lang-selector" role="tablist">
+                <button class="lang-btn active" data-lang="curl">cURL</button>
+                <button class="lang-btn" data-lang="node">Node.js</button>
+                <button class="lang-btn" data-lang="python">Python</button>
+                <button class="lang-btn" data-lang="java">Java</button>
+                <button class="lang-btn" data-lang="php">PHP</button>
+              </div>
+            </div>
+
+            <div class="code-terminal-body">
+              <pre><code id="codeSnippetDisplay"><span class="syn-cmd">curl</span> -X POST https://api.razorpay.com/v1/orders \
+  -U <span class="syn-str">[YOUR_KEY_ID]:[YOUR_KEY_SECRET]</span> \
+  -H <span class="syn-str">'Content-Type: application/json'</span> \
+  -d <span class="syn-str">'{
+    "amount": 50000,
+    "currency": "INR",
+    "receipt": "order_rcptid_11",
+    "notes": {
+      "customer_tier": "gold",
+      "platform": "web"
+    }
+  }'</span></code></pre>
+            </div>
+
+            <div class="code-terminal-footer">
+              <div class="code-status-tag">
+                <span>&#9679;</span>
+                <span>Production API Ready &bull; HTTP 200 OK</span>
+              </div>
+              <button class="copy-code-btn" id="copyCodeBtn" aria-label="Copy code snippet">
+                <span id="copyBtnText">Copy Code</span>
+                <span>&#128203;</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- No-Code Suite -->
+    <section class="section-wrapper nocode-section" id="nocode">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Zero Coding Required</div>
+          <h2 class="section-title">&lt;what html?&gt; Not a developer? Our No-Code products have you covered</h2>
+          <p class="section-subtitle">
+            Accept payments, share invoices, sell products, and collect recurring subscriptions in under 5 minutes without writing a single line of code.
+          </p>
+        </div>
+
+        <div class="nocode-grid">
+          
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128279;</div>
+            <h3 class="nocode-title">Payment Links</h3>
+            <p class="nocode-desc">Create personalized payment links directly from your dashboard and share them on WhatsApp or SMS.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="links">Create Link &rarr;</button>
+          </div>
+
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128196;</div>
+            <h3 class="nocode-title">Payment Pages</h3>
+            <p class="nocode-desc">Build high-converting custom storefronts for courses, donations, or merchandise with zero coding.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="pages">Build Storefront &rarr;</button>
+          </div>
+
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128296;</div>
+            <h3 class="nocode-title">Payment Button</h3>
+            <p class="nocode-desc">Copy and paste a pre-styled "Pay Now" button into your HTML, WordPress, Notion, or Wix website.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="pg">Embed Button &rarr;</button>
+          </div>
+
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128196;</div>
+            <h3 class="nocode-title">Invoices</h3>
+            <p class="nocode-desc">Generate professional GST-compliant invoices with automatic payment links and instant WhatsApp alerts.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="pg">Create Invoice &rarr;</button>
+          </div>
+
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128247;</div>
+            <h3 class="nocode-title">Smart QR Codes</h3>
+            <p class="nocode-desc">Generate dynamic UPI QR codes with customized logos for your offline checkout counters or delivery agents.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="pos">Get QR Code &rarr;</button>
+          </div>
+
+          <div class="nocode-card">
+            <div class="nocode-icon">&#128260;</div>
+            <h3 class="nocode-title">Subscriptions</h3>
+            <p class="nocode-desc">Manage customer recurring memberships and automated billings with automated payment retries.</p>
+            <button class="btn-link card-knowmore-btn" data-modal="subscriptions">Setup Subscription &rarr;</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonials & Founder Quotes ("Razorpay grows with you!") -->
+    <section class="section-wrapper testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Customer Stories</div>
+          <h2 class="section-title">Razorpay grows with you!</h2>
+          <p class="section-subtitle">
+            See how founders and enterprise leaders scale their revenue, automate financial operations, and delight millions of customers.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1: Mamaearth -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "Razorpay powers our seamless checkout across web and app, helping us delight millions of skincare shoppers every day. The Turbo UPI integration alone improved our success rates remarkably."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">GA</div>
+              <div>
+                <div class="author-name">Ghazal Alagh</div>
+                <div class="author-title">Co-founder, Mamaearth</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: Jar -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "RazorpayX works for most of our needs &mdash; be it our salaries, our compliance, or our payments to vendors. And the biggest headache of all OTPs went away completely with automated approvals."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">NA</div>
+              <div>
+                <div class="author-name">Nischay AG</div>
+                <div class="author-title">Co-founder, Jar</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: Doubtnut -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "In a few hours we were able to set up the entire Payroll Management on RazorpayX. We saved 500+ hours in manual calculations and achieved 40% cost reduction in finance operations."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">AS</div>
+              <div>
+                <div class="author-name">Aditya Shankar</div>
+                <div class="author-title">Co-founder, Doubtnut</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4: Isadora Life -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "Razorpay's revolving Line of Credit simplifies financial management, aiding inventory planning during seasonal cash flow gaps. The approval was fast and transparent."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">NT</div>
+              <div>
+                <div class="author-name">Neha Tandon Sharma</div>
+                <div class="author-title">Founder, Isadora Life</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 5: Barosi -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "Razorpay Magic Checkout is truly a magical solution. Our conversion rate has increased by 35% and our COD Return-to-Origin rate has drastically decreased."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">DR</div>
+              <div>
+                <div class="author-name">Durlabh Rawat</div>
+                <div class="author-title">Founder, Barosi</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 6: AN Fashions -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">&ldquo;</div>
+            <p class="testimonial-text">
+              "Razorpay simplifies cross-border bank transfers with the MoneySaver Exporter Account, reducing FIRC generation turnaround from 5 days to literally seconds."
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar">NG</div>
+              <div>
+                <div class="author-name">Nikita Gujral</div>
+                <div class="author-title">Founder, AN Fashions</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Transparent Pricing & Interactive Fee Calculator -->
+    <section class="section-wrapper pricing-section" id="pricing">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Simple Pricing</div>
+          <h2 class="section-title">Transparent pricing with no hidden surprises</h2>
+          <p class="section-subtitle">
+            No setup fee. No annual maintenance charges. Pay only when you accept money from customers.
+          </p>
+        </div>
+
+        <div class="pricing-calc-grid">
+          
+          <!-- Pricing Overview Left -->
+          <div class="pricing-plans-box">
+            
+            <div class="plan-card plan-featured">
+              <div class="plan-header">
+                <div class="plan-name">Standard Plan</div>
+                <div class="plan-rate">2%*</div>
+              </div>
+              <div class="plan-desc">Per successful domestic transaction (+ 18% GST)</div>
+              <div class="plan-perks-list">
+                <div class="plan-perk">&#10003; 100+ Payment Modes: UPI, Cards, Netbanking</div>
+                <div class="plan-perk">&#10003; &#8377;0 Setup Fee &amp; &#8377;0 Annual Maintenance</div>
+                <div class="plan-perk">&#10003; Standard T+2 Settlement cycle</div>
+                <div class="plan-perk">&#10003; 24x7 Customer support &amp; Dashboard access</div>
+              </div>
+            </div>
+
+            <div class="plan-card">
+              <div class="plan-header">
+                <div class="plan-name">Enterprise Plan</div>
+                <div class="plan-rate">Custom</div>
+              </div>
+              <div class="plan-desc">For high-volume merchants and unicorn disruptors</div>
+              <div class="plan-perks-list">
+                <div class="plan-perk">&#10003; Volume-based discounted pricing</div>
+                <div class="plan-perk">&#10003; Dedicated Key Account Manager</div>
+                <div class="plan-perk">&#10003; Custom instant settlement options</div>
+                <div class="plan-perk">&#10003; Optimizer multi-gateway failover routing</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Calculator Card Right -->
+          <div class="calculator-card">
+            <h3 class="calc-title">Interactive Pricing Calculator</h3>
+            <p class="calc-subtitle">Estimate your monthly payment fee and calculate net payouts into your bank account.</p>
+
+            <div class="calc-input-group">
+              <div class="calc-slider-header">
+                <span class="calc-slider-label">Monthly Transaction Volume</span>
+                <span class="calc-slider-val" id="calcVolumeDisplay">&#8377; 5,00,000</span>
+              </div>
+              <input type="range" class="calc-range-slider" id="calcSlider" min="50000" max="5000000" step="50000" value="500000">
+            </div>
+
+            <div class="calc-results-box">
+              <div class="calc-result-item">
+                <span class="calc-res-label">Est. Razorpay Fee (2%)</span>
+                <span class="calc-res-val" id="calcFeeDisplay">&#8377; 10,000</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="calc-res-label">Net Settlement Amount</span>
+                <span class="calc-res-val calc-res-val--green" id="calcNetDisplay">&#8377; 4,90,000</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="calc-res-label">Setup &amp; AMC Cost</span>
+                <span class="calc-res-val calc-res-val--green">&#8377; 0 Free</span>
+              </div>
+              <div class="calc-result-item">
+                <span class="calc-res-label">Settlement Speed</span>
+                <span class="calc-res-val">T + 2 Days</span>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" id="calcStartBtn" style="width: 100%;">
+              Start Accepting Payments at 2% &rarr;
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions (FAQ) Section -->
+    <section class="section-wrapper faq-section" id="faq">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Knowledge Base</div>
+          <h2 class="section-title">Frequently asked questions</h2>
+          <p class="section-subtitle">
+            Find answers to common questions about payment methods, onboarding steps, security, and integration.
+          </p>
+        </div>
+
+        <div class="faq-accordion-wrapper">
+          
+          <div class="faq-item active">
+            <button class="faq-question-btn">
+              <span>What is Razorpay?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              Razorpay is India's leading full-stack financial services platform that enables businesses to accept online payments, automate banking operations, manage payroll compliance, and access business credit. Trusted by over 1,50,000+ businesses and 70% of India's unicorn startups.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>What payment methods does Razorpay support?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              Razorpay supports 100+ payment modes including UPI (Google Pay, PhonePe, Paytm, BHIM), Credit Cards, Debit Cards (Visa, Mastercard, RuPay, Maestro), 50+ Netbanking banks, digital wallets (Paytm, Mobikwik, Airtel Money, JioMoney), Pay Later / Cardless EMI, and International Credit Cards.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>What is RazorpayX and how does business banking work?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              RazorpayX is a business banking platform that operates on top of your partner current accounts (ICICI, RBL, and Yes Bank). It allows automated bulk payouts, scheduled vendor payments, instant payroll processing, corporate credit cards, and automated tax reconciliation via one unified interface.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>Is Razorpay safe, secure, and RBI regulated?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              Yes. Razorpay Payments Private Limited is an RBI Authorised Payment Aggregator. Razorpay is fully PCI-DSS Level 1 certified (the highest international security standard for payment cards), ISO/IEC 27001:2022 certified, and AICPA SOC-2 compliant with 256-bit encryption.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>How fast is the onboarding process?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              You can sign up in less than 2 minutes and access the dashboard immediately in Test Mode to test integration. Live payment activation typically takes under 24 hours once your digital KYC documents (PAN, Bank Account, Business Proof) are submitted.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>Can I accept international payments from outside India?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              Yes! Razorpay enables you to accept payments from customers in 100+ foreign currencies via international credit cards (Visa, Mastercard, Amex) and localized payment methods. With our MoneySaver Export Account, you can also receive B2B wire transfers (ACH/SEPA/SWIFT) with 50% cheaper forex fees.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>What if I do not have a website or app?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              You don't need a website! You can use Razorpay Payment Links to send links via SMS or WhatsApp, create custom Payment Pages with your logo and product catalog, or generate dynamic Bharat QR codes.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question-btn">
+              <span>What are the charges and settlement turnaround times?</span>
+              <span class="faq-icon-cross">+</span>
+            </button>
+            <div class="faq-answer-panel">
+              Our standard fee is 2% per domestic transaction. UPI and RuPay Debit cards are eligible for special rates according to NPCI guidelines. Settlements are deposited directly into your linked bank account on a standard T+2 business days cycle, with instant settlement options available for eligible merchants.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Promotional Call to Action Banner -->
+    <section class="cta-banner-section" id="ctaBanner">
+      <div class="container">
+        <div class="cta-banner-content">
+          <h2 class="cta-banner-title">Supercharge your business with Razorpay</h2>
+          <p class="cta-banner-desc">
+            Sign up now and join over 1,50,000+ businesses using India's top financial infrastructure to power payments, banking, and payroll.
+          </p>
+          <div class="cta-banner-actions">
+            <button class="btn btn-white btn-lg" id="bannerSignupBtn">
+              Sign Up Now &rarr;
+            </button>
+            <button class="btn btn-outline btn-lg" id="bannerSalesBtn" style="color: #ffffff; border-color: rgba(255,255,255,0.4);">
+              Talk to Sales &#8599;
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Multi-Column Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <!-- Top Brand Details -->
+      <div class="footer-top-brand">
+        <div class="footer-brand-info">
+          <div class="footer-brand-logo">
+            <svg width="130" height="26" viewBox="0 0 140 30" fill="none"><path d="M9.05494 7.84177L7.89197 12.1223L14.5486 7.8174L10.195 24.0606L14.6165 24.0643L21.048 0.0723572" fill="#305EFF"/><path d="M1.89031 17.2356L0.059082 24.0643H9.12142L12.8297 10.1729L1.89031 17.2356Z" fill="#192839"/></svg>
+          </div>
+          <p class="footer-brand-desc">
+            Razorpay is India's leading full-stack financial services platform that enables businesses to accept payments, automate banking operations, manage payroll, and access business credit.
+          </p>
+          <div class="footer-regd-office">
+            <strong>REGD. OFFICE ADDRESS:</strong><br>
+            Razorpay Software Limited,<br>
+            1st Floor, SJR Cyber, 22 Laskar Hosur Road, Adugodi,<br>
+            Bengaluru, 560030, Karnataka, India<br>
+            CIN: U62099KA2024PTC188982
+          </div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div>
+          <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--color-dark); margin-bottom: 12px;">
+            Find Us Online
+          </div>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/company/razorpay" class="social-icon-btn" aria-label="LinkedIn" target="_blank" rel="noopener">In</a>
+            <a href="https://twitter.com/razorpay" class="social-icon-btn" aria-label="X Twitter" target="_blank" rel="noopener">&#120143;</a>
+            <a href="https://facebook.com/razorpay" class="social-icon-btn" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+            <a href="https://instagram.com/razorpay" class="social-icon-btn" aria-label="Instagram" target="_blank" rel="noopener">&#9829;</a>
+            <a href="https://github.com/razorpay" class="social-icon-btn" aria-label="GitHub" target="_blank" rel="noopener">&lt;&gt;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Links Columns Grid -->
+      <div class="footer-links-grid">
+        
+        <!-- Column 1: Accept Payments -->
+        <div>
+          <div class="footer-col-title">Accept Payments</div>
+          <ul class="footer-nav-list">
+            <li><a href="#products" class="footer-nav-link">Payment Gateway</a></li>
+            <li><a href="#products" class="footer-nav-link">Payment Pages</a></li>
+            <li><a href="#products" class="footer-nav-link">Payment Links</a></li>
+            <li><a href="#products" class="footer-nav-link">Razorpay POS <span class="footer-badge-tag">NEW</span></a></li>
+            <li><a href="#products" class="footer-nav-link">QR Codes</a></li>
+            <li><a href="#products" class="footer-nav-link">Subscriptions</a></li>
+            <li><a href="#products" class="footer-nav-link">Smart Collect</a></li>
+            <li><a href="#products" class="footer-nav-link">Optimizer</a></li>
+            <li><a href="#products" class="footer-nav-link">Instant Settlements</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Banking Plus -->
+        <div>
+          <div class="footer-col-title">Banking Plus</div>
+          <ul class="footer-nav-list">
+            <li><a href="#products" class="footer-nav-link">RazorpayX</a></li>
+            <li><a href="#products" class="footer-nav-link">Current Accounts</a></li>
+            <li><a href="#products" class="footer-nav-link">Payouts &amp; Bulk API</a></li>
+            <li><a href="#products" class="footer-nav-link">Payout Links</a></li>
+            <li><a href="#products" class="footer-nav-link">Corporate Credit Card</a></li>
+            <li><a href="#products" class="footer-nav-link">Source to Pay</a></li>
+            <li><a href="#products" class="footer-nav-link">Forex Management</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Payroll -->
+        <div>
+          <div class="footer-col-title">Payroll</div>
+          <ul class="footer-nav-list">
+            <li><a href="#products" class="footer-nav-link">RazorpayX Payroll</a></li>
+            <li><a href="#products" class="footer-nav-link">Payroll for Startups</a></li>
+            <li><a href="#products" class="footer-nav-link">Payroll for Enterprises</a></li>
+            <li><a href="#products" class="footer-nav-link">Payroll for CAs</a></li>
+            <li><a href="#products" class="footer-nav-link">Compliances &amp; TDS</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Developers -->
+        <div>
+          <div class="footer-col-title">Developers</div>
+          <ul class="footer-nav-list">
+            <li><a href="#developers" class="footer-nav-link">Documentation</a></li>
+            <li><a href="#developers" class="footer-nav-link">Integrations &amp; SDKs</a></li>
+            <li><a href="#developers" class="footer-nav-link">API Reference</a></li>
+            <li><a href="#developers" class="footer-nav-link">Webhooks</a></li>
+            <li><a href="#developers" class="footer-nav-link">OpenAPI Specification</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 5: Free Tools & Resources -->
+        <div>
+          <div class="footer-col-title">Free Tools</div>
+          <ul class="footer-nav-list">
+            <li><a href="#pricing" class="footer-nav-link">Fee Calculator</a></li>
+            <li><a href="#faq" class="footer-nav-link">GST Calculator</a></li>
+            <li><a href="#faq" class="footer-nav-link">Settlement Guide</a></li>
+            <li><a href="#testimonials" class="footer-nav-link">Customer Stories</a></li>
+            <li><a href="#faq" class="footer-nav-link">Chargeback Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 6: Company -->
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-nav-list">
+            <li><a href="#hero" class="footer-nav-link">About Us</a></li>
+            <li><a href="#hero" class="footer-nav-link">Careers</a></li>
+            <li><a href="#compliance" class="footer-nav-link">Security &amp; Trust</a></li>
+            <li><a href="#faq" class="footer-nav-link">Grievance Redressal</a></li>
+            <li><a href="#faq" class="footer-nav-link">Responsible Disclosure</a></li>
+            <li><a href="#faq" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="#faq" class="footer-nav-link">Terms of Use</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Regulatory Disclaimer Box -->
+      <div class="footer-disclaimer-box">
+        Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are provided by RBI licensed partner banks (ICICI, RBL, Yes Bank), in accordance with RBI regulations. RazorpayX itself is a technology platform and does not hold a banking license. Payment aggregation services are operated by Razorpay Payments Private Limited (RBI - authorised Payment Aggregator).
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div class="footer-copy">
+          &copy; 2026 Razorpay Software Limited. All Rights Reserved. (Frontend Educational Clone)
+        </div>
+        <div class="footer-legal-links">
+          <a href="#compliance" class="footer-legal-link">Privacy Policy</a>
+          <a href="#compliance" class="footer-legal-link">Terms of Use</a>
+          <a href="#compliance" class="footer-legal-link">Security</a>
+          <a href="#faq" class="footer-legal-link">Help &amp; Support</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top">
+    &#8593;
+  </button>
+
+  <!-- Interactive Sign Up Modal -->
+  <div class="modal-backdrop" id="signupModal" role="dialog" aria-modal="true" aria-labelledby="signupModalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="signupModalTitle">Get Started with Razorpay</h3>
+        <button class="modal-close-btn" data-close-modal="signupModal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-disclaimer-notice">
+          &#9888; <strong>Educational Demo Notice:</strong> This is a frontend clone created for internship practice. No actual accounts, credentials, or personal payment data are collected or stored.
+        </div>
+        <form id="signupDemoForm" onsubmit="return false;">
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="signupPhone">Business Mobile / Email</label>
+            <input type="text" class="modal-input" id="signupPhone" placeholder="Enter mobile number or work email" required>
+          </div>
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="signupBizType">Business Type</label>
+            <select class="modal-input" id="signupBizType">
+              <option value="startup">Startup / Registered Company</option>
+              <option value="individual">Freelancer / Individual</option>
+              <option value="enterprise">Enterprise / Large Corporation</option>
+              <option value="ngo">NGO / Educational Institution</option>
+            </select>
+          </div>
+          <button type="submit" class="modal-btn-submit" id="submitSignupBtn">Create Account (Demo) &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Login Modal -->
+  <div class="modal-backdrop" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginModalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="loginModalTitle">Login to Razorpay Dashboard</h3>
+        <button class="modal-close-btn" data-close-modal="loginModal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-disclaimer-notice">
+          &#9888; <strong>Educational Demo Notice:</strong> Demonstrating frontend form handling and modal state. Do not enter real credentials.
+        </div>
+        <form id="loginDemoForm" onsubmit="return false;">
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="loginEmail">Email / Phone Number</label>
+            <input type="text" class="modal-input" id="loginEmail" placeholder="registered@company.com" required>
+          </div>
+          <div class="modal-form-group">
+            <label class="modal-form-label" for="loginPass">Password / OTP</label>
+            <input type="password" class="modal-input" id="loginPass" placeholder="Enter password or demo OTP" required>
+          </div>
+          <button type="submit" class="modal-btn-submit" id="submitLoginBtn">Proceed to Dashboard &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Quick View / Know More Modal -->
+  <div class="modal-backdrop" id="productDetailModal" role="dialog" aria-modal="true" aria-labelledby="productDetailTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="productDetailTitle">Product Specifications</h3>
+        <button class="modal-close-btn" data-close-modal="productDetailModal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="productDetailBody">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">
+    <span class="toast-icon">&#10003;</span>
+    <span id="toastText">Action completed successfully</span>
+  </div>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
